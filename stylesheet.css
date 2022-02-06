@@ -9,19 +9,34 @@ h3 {
     text-align: center;
 
 }
-.nelsonImg {
-    width: 70%;
+.adamaImg {
+    width: 40%;
     display: block;
     margin-left: auto;
     margin-right: auto;
 }
 
-#info1, #info2, #info3 {
+#info1 {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    border-style: solid;
-    border-color: black;
     padding-top: 20px;
     padding-bottom: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0,2);
+    transition: 0.3s;
+    width: 40%;
 }
+
+#info3 {
+    border-style: solid;
+    border-color: black;display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0,2);
+    transition: 0.3s;
+    width: 40%;
+
+}
+    
