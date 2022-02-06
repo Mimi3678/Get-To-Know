@@ -16,6 +16,14 @@ h3 {
     margin-right: auto;
 }
 
+.entry {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+
+}
+
 #info1 {
     display: block;
     margin-left: auto;
@@ -40,3 +48,19 @@ h3 {
 
 }
     
+.adamaback {
+    width: 15%;
+    display: block;
+    margin-left: auto;
+}
+.adamback2 {
+    width: 10%;
+    display: block;
+    margin-top: auto;
+}
+.ashobi {
+    width: 20%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
