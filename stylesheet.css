@@ -1,3 +1,6 @@
+* {
+    box-sizing: border-box;
+}
 h1 {
     font-size: 60px;
     text-align: center;
@@ -24,7 +27,7 @@ h3 {
 
 }
 
-#info1 {
+#info1, #info2 {
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -49,18 +52,26 @@ h3 {
 }
     
 .adamaback {
-    width: 15%;
+    width: 25%;
     display: block;
     margin-left: auto;
 }
 .adamback2 {
-    width: 10%;
+    width: 30%;
     display: block;
     margin-top: auto;
 }
-.ashobi {
-    width: 20%;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+
+.coloumn {
+    flex: 33.33%;
+    padding: 5px;
+    
+}
+.row{
+    display: flex;
+}
+
+.asho {
+    width: 50%;
+    
 }
