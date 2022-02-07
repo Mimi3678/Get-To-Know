@@ -4,7 +4,7 @@ Sources
 Adama
 http://www.sewa.news/2018/02/a-life-cut-short-adama-sallie-kargbo.html
 https://www.taiwannews.com.tw/en/news/722800
-
+https://twitter.com/aschobi
 
 
 Picture Sources
