@@ -1,6 +1,14 @@
 * {
     box-sizing: border-box;
 }
+
+body {
+    background-image: url("images/1-removebg-preview.png"), url("images/2-removebg-preview.png");;
+    background-repeat: no-repeat, no-repeat;
+    background-size: 250px;
+    background-position: left top, right bottom;
+}   
+
 h1 {
     font-size: 60px;
     text-align: center;
@@ -13,10 +21,8 @@ h3 {
 
 }
 .adamaImg {
-    width: 40%;
     display: block;
-    margin-left: auto;
-    margin-right: auto;
+    margin: 0px auto;
 }
 
 .entry {
@@ -24,7 +30,6 @@ h3 {
     margin-left: auto;
     margin-right: auto;
     width: 40%;
-
 }
 
 #info1, #info2 {
@@ -50,28 +55,11 @@ h3 {
     width: 40%;
 
 }
-    
-.adamaback {
-    width: 25%;
-    display: block;
-    margin-left: auto;
-}
-.adamback2 {
-    width: 30%;
-    display: block;
-    margin-top: auto;
-}
-
 .coloumn {
     flex: 33.33%;
     padding: 5px;
-    
 }
 .row{
     display: flex;
 }
 
-.asho {
-    width: 50%;
-    
-}
