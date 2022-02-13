@@ -34,15 +34,16 @@ const task5 = {
 tasks.push(task1, task2, task3, task4, task5)
 
 //Start quiz button
-function startButton() {
+ function start() {
     let out = ""
     let id = 0
     let taskIndex = 0
 
     for (let task of tasks) {
         out += "<li>" +
-        "<h4>" + task.question + "</h4>" +
-        "<div>"
+         "<h4>" + task.question + "</h4>" + 
+         "<div>"
+
     for (let alternatives of task.alternatives) {
         out += "<label for='" + id + "'>" + alternatives + "</label>" +
             "<input id='" + id + "' type='radio' value='" + alternatives +
@@ -65,7 +66,7 @@ function checkAnswer() {
         let answer = ""
 
         for (let alternatives of radioKnapper) {
-            if (alternatives.Checked ) {
+            if (alternatives.checked ) {
                 answer = alternatives.value
                 console.log(answer)
                 break
@@ -88,4 +89,5 @@ function checkedIfRight(taskIndex, answer) {
     }
     return false;
 }
+
 
