@@ -1,86 +1,172 @@
-* {
-    margin: 0;
-    padding: 0;
-}
-.headerinfo {
-    text-align: center;
-    font-style: 'Cormorant Garamond', serif;
-    font-size: 40px;
-    background-color: #0A122A;
-    color: white;
-    padding: 200px;
-}
-
-.titleinfo {
-    font-style: 'Cormorant Garamond', serif;
-    font-size: 85px;
-}
-
-.linksnav {
-    font-style: 'Cormorant Garamond', serif;
-    font-size: 20px;
-    color: #FFFF;
-    text-decoration: none;
-    margin: 5px;
-}
-
-.Africa {
-    padding: 200px;
-    background-color: #EF6F6C;
-}
-
-.imageIntro {
-    width: 200px;
-    border-radius: 100px;
-    margin-right: 15px;
-}
-
-.imageAfrica {
-    width: 500px;
-    float: left;
-    margin: 0 15px 0 0;
-}
-
-.introAfrica {
-    text-align: right;
-    margin-left: auto;
-    margin-right: auto;
-    font-family: 'Cormorant Garamond', serif;
-    font-size: 30px;
-    color: white;
-}
-
-.Europe {
-    padding: 200px;
-    background-color: #426A5A;
-}
-
-.introEurope {
-    text-align: left;
-    margin-left: auto;
-    margin-right: auto;
-    font-family: 'Cormorant Garamond', serif;
-    font-size: 30px;
-    color: white;
-}
 
 
-.North-America {
- padding: 200px;
- background-color: #DDAE7E;
-}
+    * {
+        margin: 0;
+        padding: 0;
+    }
+    .headerinfo {
+        background-color: #0A122A;
+        padding: 200px;
+        text-align: center;
+    }
+    
+    .titleinfo {
+        text-align: center;
+        font-style: 'Cormorant Garamond', serif;
+        font-size: 95px;
+        color: white;
+        padding: 15px;
+    }
+    
+    .linksnav {
+        font-style: 'Cormorant Garamond', serif;
+        font-size: 20px;
+        color: #FFFF;
+        text-decoration: none;
+        margin: 5px;
+    }
+    
+    .Africa {
+        padding: 200px;
+        background-color: #EF6F6C;
+    }
+    
+    
+    
+    .imageAfrica {
+        width: 500px;
+        float: left;
+        margin: 0 15px 0 0;
+    }
+    
+    .introAfrica {
+        text-align: right;
+        margin-left: auto;
+        margin-right: auto;
+        font-family: 'Cormorant Garamond', serif;
+        font-size: 30px;
+        color: white;
+    }
+    
+    .Europe {
+        padding: 200px;
+        background-color: #426A5A;
+    }
+    
+    .introEurope {
+        text-align: left;
+        margin-left: auto;
+        margin-right: auto;
+        font-family: 'Cormorant Garamond', serif;
+        font-size: 30px;
+        color: white;
+    }
+    
+    
+    .North-America {
+     padding: 200px;
+     background-color: #DDAE7E;
+    }
+    
+    .introNA {
+        text-align: right;
+        margin-left: auto;
+        margin-right: auto;
+        font-family: 'Cormorant Garamond', serif;
+        font-size: 30px;
+        color: white;
+    }
+    
+    footer {
+        text-align: center;
+        background-color: #0A122A;
+        color: white;
+        padding: 15px;
+    }
 
-.introNA {
-    text-align: right;
-    margin-left: auto;
-    margin-right: auto;
-    font-family: 'Cormorant Garamond', serif;
-    font-size: 30px;
-    color: white;
-}
+    /*For-mobile - everything that is belowe 500px */
+    @media all and (max-width: 500px) {
+        * {
+            margin: 0;
+            padding: 0;
+        }
 
-footer {
-    text-align: center;
-    background-color: #101820FF;
-    color: white;
-}
+        .headerinfo {
+           background-color: #26547C;
+           padding: 100px;
+        }
+        .titleinfo {
+            text-align: center;
+            font-style: 'Cormorant Garamond', serif;
+            font-size: 45px;
+            color: white;
+        }
+        /*can make a hamburger menu*/
+        .linksnav {
+            font-style: 'Cormorant Garamond', serif;
+            font-size: 20px;
+            color: #FFFF;
+            text-decoration: none;
+            margin: 5px;
+        }
+
+        .Africa {
+            padding: 100px;
+            background-color: #F78C6B;
+        }
+
+        .imageAfrica {
+            width: 300px;
+            float: right;
+            margin: 0 15px 8px 0;
+            padding: -25px;
+           
+        }
+        
+        .introAfrica {
+            text-align: left;
+            margin-left: auto;
+            margin-right: auto;
+            font-family: 'Cormorant Garamond', serif;
+            font-size: 30px;
+            color: white;
+        }
+        
+        .Europe {
+            padding: 100px;
+            background-color: #426A5A;
+        }
+        
+        .introEurope {
+            text-align: left;
+            margin-left: auto;
+            margin-right: auto;
+            font-family: 'Cormorant Garamond', serif;
+            font-size: 30px;
+            color: white;
+        }
+        
+        
+        .North-America {
+         padding: 100px;
+         background-color: #DDAE7E;
+        }
+        
+        .introNA {
+            text-align: left;
+            margin-left: auto;
+            margin-right: auto;
+            font-family: 'Cormorant Garamond', serif;
+            font-size: 30px;
+            color: white;
+        }
+        
+        footer {
+            text-align: center;
+            background-color: #26547C;
+            color: white;
+            padding: 15px;
+        }
+       
+       }
+       
