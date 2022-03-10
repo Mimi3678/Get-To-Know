@@ -1,0 +1,69 @@
+
+
+
+.imagesA {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+  }
+  
+  /* Clearfix (clear floats) */
+  .linkImages {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+
+@media all and (max-width: 500px) {
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    .headerinfo {
+        background-color: #0A122A;
+        padding: 80px;
+        text-align: center;
+    }
+    .titleinfo {
+        text-align: center;
+        font-size: 35px;
+        padding: 15px;
+        color: white;
+    }
+    .linksnav {
+        font-style: 'Cormorant Garamond', serif;
+        font-size: medium;
+        color: #FFFF;
+        text-decoration: none;
+        margin: 5px;
+    }
+
+    .opening {
+        padding: 55px;
+        margin: 20px;
+    }
+
+    .africaP {
+        text-align: left;
+        font-size: 25px;
+        font-family: 'Cormorant Garamond', serif;
+    }
+
+    .imagesA {
+        width: 100%;
+        margin: 10px;
+      }
+
+
+
+    footer {
+        text-align: center;
+        background-color: #26547C;
+        color: white;
+        padding: 15px;
+    }
+    
+    }
