@@ -52,18 +52,5 @@
         font-family: 'Cormorant Garamond', serif;
     }
 
-    .imagesA {
-        width: 100%;
-        margin: 10px;
-      }
-
-
-
-    footer {
-        text-align: center;
-        background-color: #26547C;
-        color: white;
-        padding: 15px;
-    }
     
-    }
+}
