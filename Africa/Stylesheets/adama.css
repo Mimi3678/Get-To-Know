@@ -188,9 +188,14 @@ h3 {
 .aschobi, .adama {
     text-decoration: underline;
 }
-.adamaImg {
-    margin: 0px auto;
+
+.adamaImg{
+    width: 300px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
 }
+
 
 .entry {
     display: block;
