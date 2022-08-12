@@ -9,6 +9,11 @@
     text-align: center;
 }
 
+.titleinfo{
+    color: #ffff;
+    font-style: 'Cormorant Garamond', serif;
+}
+
 .linksnavNelson{
     font-style: 'Cormorant Garamond', serif;
     font-size: medium;
@@ -16,4 +21,39 @@
     text-decoration: none;
     font-weight: 100px;
     margin: 5px;
+}
+
+.nelsonHeading{
+    font-size: 50px;
+    text-align: center;
+    padding: 35px;
+    font-style: 'Cormorant Garamond', serif;
+}
+
+.nelsonImage{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.sect2{
+    /*border: solid #0A122A;*/
+    padding: 10px;
+    margin: 10px;
+    font-size: 17px;
+    font-style: 'Cormorant Garamond', serif;
+}
+
+.sect3, .sect4, .sect5{
+    border: solid #d17100;
+    padding: 25px;
+    margin: 15px;
+    font-size: 20px;
+    font-style: 'Cormorant Garamond', serif;
+}
+
+.Intro1, .Intro2, .Intro3{
+    font-style: 'Cormorant Garamond', serif;
+    color: #0A122A;
 }
