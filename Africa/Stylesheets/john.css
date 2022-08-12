@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+    }
+
+    .headerinfoJohn{
+        background-color: #0A122A;
+        padding: 30px;
+        text-align: center;
+    }
+    
+    .titleinfo{
+        color: #ffff;
+        font-style: 'Cormorant Garamond', serif;
+    }
+    
+    .linksnavJohn{
+        font-style: 'Cormorant Garamond', serif;
+        font-size: medium;
+        color: #d17100;
+        text-decoration: none;
+        font-weight: 100px;
+        margin: 5px;
+    }
+
+
+.johnHeading{
+    font-size: 50px;
+    text-align: center;
+    padding: 35px;
+    font-style: 'Cormorant Garamond', serif;
+}
