@@ -1,0 +1,31 @@
+* {
+    box-sizing: border-box;
+    }
+
+.headerinfo{
+    background-color: #0A122A;
+    padding: 30px;
+    text-align: center;
+}
+
+.titleinfo{
+    color: #ffff;
+    font-style: 'Cormorant Garamond', serif;
+}
+
+.linksnavbar{
+    font-style: 'Cormorant Garamond', serif;
+    font-size: medium;
+    color: #d17100;
+    text-decoration: none;
+    font-weight: 100px;
+    margin: 5px;
+}
+
+body{
+    margin: 0;
+    padding: 2rem;
+    text-align: center;
+    font-family: 'Cormorant Garamond', serif;
+}
+
